@@ -1,4 +1,4 @@
-package main
+/*package main
 
 import (
 	"fmt"
@@ -27,7 +27,7 @@ func main() {
 	ch := make(chan bool, 2)
 	go ImprimeCrescente(ch)
 	go imprimeDecrescente(ch)
-	time.Sleep(3 * time.Second)
+	time.Sleep(15 * time.Second)
 	<-ch
 	<-ch
 }
